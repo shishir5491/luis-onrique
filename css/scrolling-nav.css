@@ -1,0 +1,356 @@
+/*!
+ * Start Bootstrap - Scrolling Nav (https://startbootstrap.com/template-overviews/scrolling-nav)
+ * Copyright 2013-2017 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-scrolling-nav/blob/master/LICENSE)
+ */
+/*global css */
+
+
+
+
+
+body{
+	font-family: 'Roboto Condensed', sans-serif;
+	font-family: 'Lato', sans-serif;
+}
+.property{
+	color:#49def4!important;
+}
+
+/* header css */
+.navbar-light .navbar-nav .nav-link{
+	margin-left: 45px;
+	font-weight: bold!important;
+	color: black!important;
+	padding-left: 0px!important;
+	padding-right: 0px!important;
+}
+
+
+.navbar-light .navbar-nav .nav-link:hover{
+	color: white!important;
+}
+.navbar-dark.navbar-nav .active>.nav-link, 
+.navbar-dark .navbar-nav .nav-link.active, 
+.navbar-dark .navbar-nav .nav-link.show, 
+.navbar-dark .navbar-nav .show>.nav-link{
+	color: #49def4!important;
+}
+.bg-light{
+	background-color:transparent!important;
+}
+.header-section{
+	background: url(../img/banner.png) no-repeat center top;
+	background-size: cover;
+}
+
+.overlay{
+	background: rgba(0,0,0,0.8)!important;
+}
+
+.header-tag{
+	padding: 170px 0px 150px 0px;
+}
+
+.header-tag h1{
+	font-weight: bold;
+}
+
+.learn-more{
+	-webkit-box-shadow: 0px 4px 5px 0px rgba(50, 50, 50, 0.75);
+	-moz-box-shadow:    0px 4px 5px 0px rgba(50, 50, 50, 0.75);
+	box-shadow: 0px 4px 5px 0px rgba(50, 50, 50, 0.75);
+}
+
+.header-section img{
+	display: block;
+	margin: 0 auto;
+}
+
+/* about us section css */
+
+.about-part1 img:hover{
+	transform:rotate(15deg); 
+	-webkit-transition: 0.5s;
+	-moz-transition: 0.5s;
+	-o-transition: 0.5s;
+	transition: 0.5s ease;
+}
+
+
+/* skill section */
+
+.skill-section{
+	background-color: ;
+}
+
+/* portfolio section css */
+
+.image-hover{
+	position: relative;
+	width: 100%;
+	overflow:hidden;
+
+}
+
+.image-hover-content{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	right: -100%;
+	background: rgba(0,0,0,0.6);
+}
+
+.image-hover-content h3{
+	position: absolute;
+	top: 45%;
+	left: 20%;
+}
+
+.image-hover:hover .image-hover-content{
+	right: 0!important;
+
+}
+
+.portfolio-img{
+	margin-top: 30px;
+}
+
+.portfolio-section{
+	background-color: #f6f6f6;
+}
+
+.contact-section .fa{
+	width: 35px;
+	height: 35px;
+	line-height: 35px;
+	text-align: center;
+	background-color: white;
+	color: black !important;
+	margin-top: 10px;
+}
+
+.paragaph{
+	margin-top: 15px;
+}
+
+.contact-section .fa-facebook:hover{
+	background-color: #4267b2;
+	-webkit-transition: 0.5s;
+	-moz-transition: 0.5s;
+	-o-transition: 0.5s;
+	transition: 0.5s ease;
+	color: white!important;
+	transform: rotate(360deg);
+}
+.contact-section .fa-twitter:hover{
+	background-color: #1da1f2;
+	-webkit-transition: 0.5s;
+	-moz-transition: 0.5s;
+	-o-transition: 0.5s;
+	transition: 0.5s ease;
+	color: white!important;
+	transform: rotate(360deg);
+}
+.contact-section .fa-google-plus:hover{
+	background-color: red;
+	-webkit-transition: 0.5s;
+	-moz-transition: 0.5s;
+	-o-transition: 0.5s;
+	transition: 0.5s ease;
+	color: white!important;
+	transform: rotate(360deg);
+}
+.contact-section .fa-linkedin:hover{
+	background-color: #0077b5;
+	-webkit-transition: 0.5s;
+	-moz-transition: 0.5s;
+	-o-transition: 0.5s;
+	transition: 0.5s ease;
+	color: white!important;
+	transform: rotate(360deg);
+}
+.contact-section .fa-behance:hover{
+	background-color: grey;
+	-webkit-transition: 0.5s;
+	-moz-transition: 0.5s;
+	-o-transition: 0.5s;
+	transition: 0.5s ease;
+	color: white!important;
+	transform: rotate(360deg);
+}
+
+.portfolio-img img:hover{
+	transform: rotate(10deg);
+	-webkit-transition: 0.5s;
+	-moz-transition: 0.5s;
+	-o-transition: 0.5s;
+	transition: 0.5s ease;
+}
+
+
+
+/* testimonial */
+
+.carousel-indicators .active{
+	background-color: black!important;
+}
+
+.carousel-indicators li{
+	height: 10px;
+	width: 10px;
+	border: 1px solid black;
+	background-color: transparent;
+	margin-bottom: -60px!important;
+}
+
+.dedication-section{
+	background-color: #f6f6f6;
+}
+
+.dedication-section .fa{
+	font-size: 36px;
+	margin-bottom: 15px;
+}
+hr{
+	border: 1px solid white;
+}
+.contact-section{
+	background: url(../img/pexels-photo-1366881.jpeg) no-repeat center top;
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+.about-us{
+	background-color: #f6f6f6;
+}
+
+.one{
+ margin-left: 120px;
+}
+@media(max-width: 767px){
+	.header-tag h1{
+		font-size: 36px;
+		text-align: center!important;
+	}
+
+	.header-tag p{
+		text-align: center;
+	}
+
+	h1{
+		font-size: 36px!important;
+	}
+	h2{
+		font-size: 32px!important;
+	}
+
+
+	.header-tag{
+		padding: 40px 0px!important;
+	}
+
+	.header-section img{
+		display: block!important;
+		margin: 0 auto!important;
+	}
+
+	.navbar-light .navbar-nav .nav-link{
+	margin-left: 0px;
+	font-weight: bold!important;
+	color: black!important;
+	padding-left: 0px!important;
+	padding-right: 0px!important;
+	margin-top: 5px!important
+	}
+
+	.navbar-light .home{
+		border-bottom: 0px!important;
+	}
+
+	.about-part1{
+		margin-top: 30px!important;
+	}
+
+	.about-us{
+		padding: 30px 0px!important;
+	}
+	.about-us h1{
+		font-size: 36px!important;
+		text-align: center;
+		margin-top: 10px;
+	}
+
+	.about-us img{
+		display: block;
+		margin: 0 auto;
+
+	}
+
+	.about-part{
+		margin-top: 0px!important;
+	}
+
+	.about-part button{
+		width: 70%;
+		display: block!important;
+		margin: 0 auto!important;
+	}
+
+	.skill-section{
+		padding: 30px 0px!important;
+	}
+
+	.portfolio-section{
+		padding: 30px 0px!important;
+	}
+
+	.testimonial-section{
+		padding: 30px 0px!important;
+	}
+
+	.carousel-item p{
+		padding-left: 10px!important;
+	}
+
+	.carousel-item img{
+		display: block;
+		margin: 0 auto;
+	}
+
+	.carousel-item h3{
+		text-align: center;
+	}
+	.carousel-item p{
+		text-align: center;
+	}
+
+	.dedication-section{
+		padding: 30px 0px!important;
+	}
+
+	.dedication{
+		margin-top: 30px;
+	}
+
+	.overlay{
+		padding: 30px 0px!important;
+	}
+
+	.paragaph{
+		text-align: center;
+	}
+
+	.list-inline{
+		text-align: center;
+	}
+	.eduation-section{
+		padding: 30px 0px!important;
+	}
+
+	.portfolio-img1{
+		margin-top: 0px!important;
+	}
+}
+
